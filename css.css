@@ -1,0 +1,25 @@
+#navigation{
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid rgba(0,0,0,.3);
+	padding: 10px 0;
+}
+
+.left{
+	text-align: left;
+}
+
+.middle{
+	text-align: center;
+}
+
+.right{
+	text-align: right;
+}
+
+#logo{
+
+	width: 50px;
+    height: 50px;
+    
+}
