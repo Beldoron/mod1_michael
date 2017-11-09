@@ -1,50 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Home</title>
-<link rel="stylesheet" type="text/css" href="css.css">
+	<title>About NYSL</title>
+<link rel="stylesheet" type="text/css" href="style/css.css">
 
 </head>
+
+
 <body>
 
-<div id="navigation">
+	<header id="head">
+		<a href="index.html" id="logo">
+			<img src="img/nysl_logo.png" alt="Logo" name="Logo" > 
+		</a>	
+<!-- Für das Logo einen Anker(a) nutzen (das man auf die Webseite zurück geführt wirt) und dann das skaling durch css (% nicht festgelegt) durch den anker ausrichten, nicht das Bild selber (container) // Ein Bild sollte noch neben img (ggf Anker) alt und Name enthalten -->
 
-<img src="nysl_logo.png">
-
-<h1>Northside Youth Soccre League</h1>
-	<nav>
-	
-		<div>	
-			<ul>
-				<li> <a href="index.html" class="left"> Home </a></li>
-				<li><a href="About NYSL.html" class="middle">About NYSL</a></li>
-				<li><a href="Contact.html" class="right">Contact</a></li>
-
-		</div>
-</div>
-
-	</nav>
-
-	<div class="main">
+		<div id="top">
+			<h1>Northside Youth Soccer League</h1>
 		
-<img src="soccer_image2.jpg">
+			<nav id="navigation">
+			
+				<a href="index.html" class="left">Home</a>
+				<a style="color: green;" href="About NYSL.html" class="middle"><b>About NYSL</b></a>
+				<a href="Contact.html" class="right">Contact</a>
+			</nav>
+		</div>
 
-		<h2>Mission</h2>
+	</header>
 
-		To support young athletes living in Chicago´s northside neightborhoods, who have an interest in learning and playing soccer, with opportunities to learn and practice skills related to the game of soccer, specifcally those skills around team cooperation and good sportmanship.
+	<main >	
+
+		<div id="content">
+			<aside id="figure-content">
+				<img src="img/soccer_image2.jpg">
+			</aside>
+
+		<section id="main">
+			<article>
+
+				<h3>Mission</h3>
+
+				<p style="padding-left: 1em;"> NYSL FundraiserTo support young athletes living in Chicago´s northside neightborhoods, who have an interest in learning and playing soccer, with opportunities to learn and practice skills related to the game of soccer, specifcally those skills around team cooperation and good sportmanship.</p>
 
 
-		<h2>Vision</h2>
+				<h3>Vision</h3>
 
-		The Northside Youth Soccer League aspires to develop strong, well-rounded, and mindful athletes through the building of character, self-discipline, and leadership.
+				<p style="padding-left: 1em;">The Northside Youth Soccer League aspires to develop strong, well-rounded, and mindful athletes through the building of character, self-discipline, and leadership.</p>
 
-		<h2>General information</h2>
+				<h3>General information</h3>
+       
+				<p style="padding-left: 1em;">The Northside Youth Soccer Leagueof was established in 1996 to provide athletes residing in Chicago´s northside neighborhoods an enviroment in which to learn and play soccer. To be a member of NYSL, you must be between the ages of 4 - 12 and reside in a Chicago northside neighborhood. NYSL is ran by a small full-time staff, and relies on the generous volunteer time of parents and previous league members.</p>
 
-		The Northside Youth Soccer Leagueof was established in 1996 to provide athletes residing in Chicago´s northside neighborhoods an enviroment in which to learn and play soccer. To be a member of NYSL, you must be between the ages of 4 - 12 and reside in a Chicago northside neighborhood. NYSL is ran by a small full-time staff, and relies on the generous volunteer time of parents and previous league members.
+			</article>
 
-
-
-	</div>
+		</section>
+	</main>
+		
 
 </body>
 </html>
