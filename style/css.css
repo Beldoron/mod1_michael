@@ -1,11 +1,10 @@
 
-/*Beginn Header*/
+	/*Beginn Header*/
 
 #head{
 	display: flex;
 	margin-top: 30px;
 	margin-left: 30px;
-
 }
 
 #logo{
@@ -19,22 +18,18 @@
 }
 
 #navigation a:not(:last-child) {
-border-right: 2px solid grey;
-padding-right: 10px;
-padding-left: 10px;
-
-
+	border-right: 2px solid grey;
+	padding-right: 10px;
+	padding-left: 10px;
 /*pseude selektoren berücksichtinge (z.B. not(:last-child)) bestimmte stati*/
 }
 
 h1{
-font-size: 45px;
-
+	font-size: 45px;
 }
 
 .left{
 	text-align: left;
-	
 }
 
 .middle{
@@ -49,7 +44,6 @@ font-size: 45px;
 a{
 	text-decoration-line: none;
 	color: black;
-
 }
 
 
@@ -59,19 +53,14 @@ a:hover {
     text-decoration: none;
 }
 
-
-
-
-
-
 #top{
 	margin-left: 20px;
 }
 
-/*Ende Header*/
+	/*Ende Header*/
 
 
-/*Beginn Content*/
+	/*Beginn Content*/
 
 main{
 	margin-left: 30px;
@@ -79,11 +68,9 @@ main{
 
 #content{
 	display: flex;
-
 }
 
 h2{
-
 	display: block;
     font-size: 1.5em;
     margin-top: 0.00em;
@@ -94,7 +81,6 @@ h2{
 }
 
 h3{
-
 	display: block;
     font-size: 1.17em;
     margin-top: 0em;
@@ -123,26 +109,17 @@ h3{
 
 
 #figure-content img{
-	
 	margin-top: 15px;
 	width: 100%;
 	margin-left: 0px;
-
 }
 
 #main{
- margin-left: 45px;
-
+	margin-left: 45px;
 }
 
 
 
-/*hier alles was noch für text includiert werden muss*/
-text-decoration: none
-margin-right
-padding 6
-font-weight: bold
-font-size
 
 
 
