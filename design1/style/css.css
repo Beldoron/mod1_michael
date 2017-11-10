@@ -1,0 +1,156 @@
+/*Beginn Header*/
+
+#head {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 850px;
+    height: 200px;
+    background-image: url("../img/design1_image1.jpg");
+    background-repeat: no-repeat;
+    background-position: 0% 15%;
+
+}
+
+
+h1{
+	position: absolute;
+	top: 1px; 
+    left: 27px; 
+    width: 100%; 
+    color: white;
+    font-size: 43px;
+    font-weight:normal;
+}
+
+    
+h2{
+	position: absolute;
+	top: 212px; 
+    left: 351px; 
+  	font-weight:normal;
+    color: white;
+    font-size: 23px;
+    
+
+}
+
+/*body{
+
+	margin:auto;
+}*/
+
+#logo{
+ 	margin-top: -77px;
+    margin-left: 650px;
+    width: 120px;
+    min-width: 120px;
+    position: absolute;
+}
+
+
+
+  
+#logo img {
+    width: 100%;
+}
+
+#title{
+	background-color: black;
+	display: flex;
+    margin-top: 0px;
+    margin-left: 10px;
+    width: 850px;
+    height: 30px;
+}
+
+#title h2{
+	color: white;
+	width: 400px;
+}
+/*Ab hier Main*/
+
+aside{
+	margin-top: 35px;
+	min-width: 103px;
+}
+
+#navigation a {
+    border-right: 2px 
+    padding-right: 10px;
+    padding-left: 10px;
+
+    
+}
+
+#navigation p{
+
+    display: block;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+main {
+
+    margin-left: 20px;
+    display: flex;
+}
+
+section{
+	margin-top: 35px;
+}
+
+article{
+	margin-left: 60px;
+	max-width: 650px;
+}
+
+
+
+
+a {
+    text-decoration-line: none;
+    color: black;
+}
+
+
+a:hover {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/*overflow hidden*/
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+p {
+    display: block;
+    margin-top: 0em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#h3 {
+    margin-top: 0px;
+}
+
+
+
+#main {
+    margin-left: 45px;
+}
+
+
