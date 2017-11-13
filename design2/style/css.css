@@ -1,5 +1,11 @@
 /*Beginn Header*/
 
+@import url('https://fonts.googleapis.com/css?family=Barlow');
+
+body{
+    font-family: 'Barlow', sans-serif;
+}
+
 #head1{
     width: 850px;
     height: 50px;
