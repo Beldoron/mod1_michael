@@ -1,13 +1,19 @@
 /*Beginn Header*/
 
-@import url('https://fonts.googleapis.com/css?family=Barlow');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900');
 
 body{
-    font-family: 'Barlow', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+   /* background-image: url("../img/background.jpg");
+    background-repeat: repeat-y;;*/
 }
 
+
+
 #head1{
-    background-color: white;
+    
     display: flex;
     margin-top: 0px;
     margin-left: 0px;
@@ -125,6 +131,7 @@ body{
     border-color: black;
     color: white;
     background-color: green;
+    text-decoration-line: none;
 }
 
 .button {
@@ -134,12 +141,14 @@ body{
     border-color: black;
     color: white;
     background-color: blue;
+    text-decoration-line: none;
 }
 
 a.button:hover {
     color: white;
     background-color: green;
     text-decoration: none;
+    text-decoration-line: none;
 
 }
 
@@ -150,13 +159,13 @@ a.button:hover {
     display: flex;
     margin-left: 0px;
     width: 100%;
-    height: 500px;
+    height: 100%;
     background-color: white;
 
 }
 #content{
      margin: auto;
-     height: 500px;
+     height: 100%;
      width: 800px;
     display: inline-block; 
     border-right: 2px solid silver;
@@ -181,6 +190,201 @@ article{
 
 }
 
+/*ol {
+  font-weight: bold;
+}
+
+ol > li > * {
+  font-weight: normal;
+}*/
+
+ul{
+    
+    display: block;
+    list-style-type: decimal;
+    margin-top: 0em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+
+}
+
+ol {
+    display: block;
+    list-style-type: decimal;
+    margin-top: 0em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+}
+
+ol.d {
+    list-style-type: lower-alpha;
+}
+
+ul.a {
+    list-style-type: square;
+}
+
+ul.c {
+    list-style-type: circle;
+}
+
+.middle{
+
+    text-align: center;
+}
+
+
+/*ol.bold {
+    font-weight: bold;
+
+} funktioniert nicht (nur die zahl Bold machen)*/
+
+
+
+h3{
+    font-weight: bold;
+     display: block;
+    font-size: 2.00em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+
+
+h4 {
+    display: block;
+    font-size: 1em;
+    margin-top: 1.33em;
+    margin-bottom: 0em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+/*h5 {
+    display: block;
+    font-size: 1.33em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}*/
+
+table {
+    border-collapse: collapse;
+
+}
+
+/*table, td, th {
+ 
+    border: 1px solid black;
+}*/
+
+#table1{
+    margin: auto;
+    width: 750px;
+
+}
+
+#table2{
+    margin: auto;
+    width: 750px;
+
+}
+
+#table4 {
+    margin: auto;
+    width: 750px;
+}
+
+.table2{
+    width: 100%;
+    text-align: center;
+
+    table-layout: fixed;
+}
+
+.table3{
+    width: 100%;
+    text-align: center;
+
+    table-layout: fixed;
+}
+
+.low {
+    height: 19px;
+}
+
+#table3{
+    margin: auto;
+    width: 750px;
+
+}
+
+.table4{
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+    
+}
+
+
+.moar{
+    text-align: right;
+    padding-right: 20px;
+}
+
+
+.loc {
+    text-align: left;
+    padding-left: 40px;
+}
+
+.table6 {
+        width: 100%;
+
+
+    table-layout: fixed;
+}
+
+.loc2{
+    text-align: left;
+}
+
+.loc3 {
+    text-align: left;
+    padding-left: 40px;
+}
+
+th{
+    border-bottom: 1px solid black;
+}
+
+.und{
+    text-decoration-line:underline;
+}
+
+.midc {
+    text-align: center;
+}
+
+.bolt {
+    border-top: 1px solid #ddd;
+
+}
+
+.locbolt {
+    border-top: 1px solid #ddd;
+    text-align: left;
+    padding-left: 40px;
+}
 
 
 #head6{
