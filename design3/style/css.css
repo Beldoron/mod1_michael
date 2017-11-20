@@ -27,7 +27,180 @@ header {
     position: relative;
 }
 
+#content {
 
+    height: 100%;
+    min-height: 600px;
+
+    width: 100%;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+
+.personalinfo {
+/*    border: 1px solid black;*/
+    width: 750px;
+    height: 100%;
+        margin: auto;
+    position: relative;
+    padding-bottom: 30px;
+    padding-top: 15px;
+
+
+}
+
+.submitdiv {
+   border: 1px solid black;
+    width: 60px;
+    height: 100%;
+        margin: auto;
+    position: relative;
+    padding-bottom: 30px;
+    padding-top: 15px;
+
+}
+
+.permissiondiv {
+/*    border: 1px solid black;*/
+    width: 750px;
+    height: 100%;
+        margin: auto;
+
+    padding-bottom: 35px;
+    padding-top: 15px;
+
+}
+
+
+.tableforreg {
+    text-align: center;
+    margin: auto;
+
+
+
+
+}
+
+.fontsize1{
+    font-size: 18px;
+}
+
+.tableforlive{
+    padding-right: 150px;
+    
+}
+
+.gendertd {
+    border-bottom:  1px solid white;
+    font-size: 18px;
+    height: 26px;
+    border:   1px solid white;
+}
+
+.Uniformtd {
+    font-size: 18px;
+}
+
+.tableforuniform {
+
+    margin: auto;
+
+}
+
+.tableuniformsize1{
+    padding-right: 120px;
+
+}
+
+.tableuniformsize2{
+    padding-right: 120px;
+        font-size: 18px;
+
+}
+
+.whitebordertd1{
+    border-left:   1px solid white;
+}
+
+.whitebordertd2{
+    border-right:   1px solid white;
+}
+
+.whitebordertd3{
+    border-right:   1px solid white;
+    border-left:   1px solid white;
+}
+
+
+
+form input{
+    font-size: 18px;
+    
+}
+
+
+/*input{
+    font-size: 40px;
+}*/
+
+/*table, td, th {
+ 
+    border: 1px solid black;
+}*/
+
+.submitbut {
+    font-size: 20px;
+    background-color: #A4FF4A;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid black;
+
+}
+
+
+
+
+
+
+select {
+    font-size: 14px;
+    }
+
+h5 {
+    display: block;
+    font-size: 20px;
+    margin-top: 0.40em;
+    margin-bottom: 0.35em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    border-bottom: 2px solid #A4FF4A;
+   
+}
+
+h6 {
+    display: block;
+    font-size: 18px;
+    margin-top: 0.40em;
+    margin-bottom: 0.35em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: normal;
+    border-bottom: 2px solid black;
+   
+}
+
+.para1{
+    text-align: center;
+    font-size: 18px;
+}
+
+.para2{
+    text-align: center;
+    font-size: 18px;
+    padding-top: 40px;
+}
 
 .navtr {
     height: 32px;
@@ -45,7 +218,7 @@ header {
 
     padding-left: 10px;
     width: 105px;
-    height: 165px;
+    height: 192px;
     background-image: url("../img/background2.jpg");
     background-repeat: repeat;
     background-attachment: fixed;
@@ -256,18 +429,12 @@ a.current:hover{
     position: relative;
 }
 
-#content {
 
-    height: 100%;
-    min-height: 600px;
-/*    overflow: scroll;*/
-    width: 800px;
-    display: inline-block;
-    background-color: rgba(255, 255, 255, 0.9);
-}
 
 article {
-    padding-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
     /*    overflow: scroll; später für inside scrolling*/
 }
 
@@ -320,7 +487,9 @@ ul.c {
     text-align: center;
 }
 
-
+.blue{
+    color: blue; 
+}
 
 /*ol.bold {
     font-weight: bold;
@@ -349,25 +518,14 @@ h4 {
 }
 
 
-/*h5 {
-    display: block;
-    font-size: 1.33em;
-    margin-top: 0em;
-    margin-bottom: 0em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: bold;
-}*/
+
 
 table {
     border-collapse: collapse;
 }
 
 
-/*table, td, th {
- 
-    border: 1px solid black;
-}*/
+
 
 #table1 {
     margin: auto;
@@ -473,11 +631,83 @@ th {
     width: 800px;
     height: 35px;
 
-    /*box-shadow: 3px 2px;*/
+   
 }
 
-/*old stuff
+#subpagemap{
 
+
+    width: 650px;
+    height: 100%;
+    margin: auto;
+    padding-top: 60px;
+    position: relative;
+}  
+
+   
+#content2 {
+
+    height: 100%;
+
+/*    overflow: scroll;*/
+    width: 650px;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+#article {
+    padding: 20px;
+
+    /*    overflow: scroll; später für inside scrolling*/
+}
+
+#head7 {
+
+
+    background-image: url("../img/background2.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: auto;
+
+    width: 650px;
+    height: 8px;
+    border: 0px solid black;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+
+
+
+
+.button2 {
+    color: black;
+    text-decoration-line: none;
+    font-weight: bold;
+}
+
+a.button2:hover {
+    color: #A4FF4A;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+/*old stuff
+/*    overflow: scroll;*/
+
+/*input[type="submit"]{
+    font-size: 20px;
+    background-color: red;
+    margin: 0 auto;
+    display: block
+}*/
 /*.current {
 
 
