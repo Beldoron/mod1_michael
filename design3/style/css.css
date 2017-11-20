@@ -432,6 +432,9 @@ a.current:hover{
 
 
 article {
+
+    /*consider using shorthands like padding: 0 10px 20px 10px; */
+
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 20px;
