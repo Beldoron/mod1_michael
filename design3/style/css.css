@@ -19,6 +19,32 @@ body {
 
 
 
+#hole_website {
+    width: 1050px;
+    height: 100%;
+    margin: auto;
+}
+
+/* für blur ABER noch gucken wegen div order
+
+  background-size: cover;
+  display: block;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  height: 800px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  z-index: 1;*/
+
+
+
+
+#content article p {
+    padding-left: 1em
+                
+}
+
 header {
     width: 800px;
     height: 260px;
@@ -41,6 +67,7 @@ header {
 .personalinfo {
 /*    border: 1px solid black;*/
     width: 750px;
+    max-width: 750px;
     height: 100%;
         margin: auto;
     position: relative;
@@ -433,12 +460,8 @@ a.current:hover{
 
 article {
 
-    /*consider using shorthands like padding: 0 10px 20px 10px; */
-
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 20px;
-    /*    overflow: scroll; später für inside scrolling*/
+    padding: 0 10px 20px 10px;
+  
 }
 
 
